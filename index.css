@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body{
+    list-style-type: none;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background-color: #FFFFFF;
+}
+header{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+}
+.rectangle1{
+    display: flex;
+    flex: row;
+    width: auto;
+    height: 52px;
+    background: #DD5555 0% 0% no-repeat padding-box;
+}
+nav{
+    display: flex;
+    flex: row;
+    align-items: center;
+    height: auto;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 16px;
+}
+.logo{
+    margin-top: 12px;
+    margin-left: 131px;
+    width: 120px;
+    height: 28px;
+}
+.menu{
+    display: flex;
+    height: 52px;
+    width: 89px;
+}
+#color{
+    color: #FFFFFF;
+}
+a:link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+.menu:hover, .menu:active{
+    background: #000000;
+    opacity: 0.25;  
+}
+.Bouton1:hover, .Bouton1:active{
+    background: #DD5555;
+    opacity: 0.75;  
+}
+.Bouton2:hover, .Bouton2:active{
+    background: #000000;
+    opacity: 0.25;  
+}
+.Bouton3:hover, .Bouton3:active{
+    background: #C0C0C0;
+    opacity: 1; 
+}
+.Background_Header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background: no-repeat center/100% url("https://i.postimg.cc/8zG538xx/about-jpg.png");
+    height: 658px;
+}
+.clip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 390px;
+    height: fit-content;
+}
+h1{
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: auto;
+}
+.phrase1{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.rectangle_Fond_bouton{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #FFFFFF;
+    width: 390px;
+    margin-top: 23px;
+    padding-top: 24px;
+    justify-content: space-between;
+}
+.Bouton1{
+    display: flex;
+    flex-direction: row;
+    width: 112px;
+    height: 46px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.text_Bouton1{
+    color: #2E2E2E;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.Services{
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    margin-left: 131px;
+    margin-right: 131px;
+}
+h2{ 
+    box-sizing: border-box;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 53px;
+    color: #2E2E2E;
+    font-family: 'OpenSans-Semibold', sans-serif;
+    font-size: 36px;
+}
+.Service1{
+    width: 358px;
+    height: auto;
+    text-align: center;
+}
+.Fond_icone{
+    background-color: #DD5555;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: none;
+}
+h3{
+    color: #2E2E2E;
+    font-family: 'OpenSans-Semibold', sans-serif;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+p{
+    color: #2E2E2E;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+.Equipe{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    margin-left: 142px;
+    margin-right: 142px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+h4{
+    display: flex;
+    flex-direction: column;
+    background: no-repeat top / 100% url("https://i.postimg.cc/cLcHG9SC/team-jpg.png");
+    height: 240px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-size: 48px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 239px;
+    justify-content: center;
+    align-content: space-around;
+}
+.photo{
+    display: flex;
+    width: 239px;
+    height: 239px;
+    border-radius: 50%;
+}
+.Bouton2{
+    display: flex;
+    flex-direction: row;
+    width: 132px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #DD5555;
+    border-radius: 5px;
+}
+.nom{
+    color: #2E2E2E;
+    font-family: 'OpenSans-Semibold', sans-serif;
+    font-size: 28px;
+}
+.text2{
+    color: #FFFFFF;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 18px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    background-color: #DD5555;
+    color: #FFFFFF;
+    height: 476px;
+}
+h5{
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+.rectangle_blanc1{
+    height: 32px;
+    width: 358px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+}
+.rectangle_blanc2{
+    height: 112px;
+    width: 748px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+
+}
+.block1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 748px;
+}
+.Bouton3{
+    display: flex;
+    flex-direction: row;
+    width: 123px;
+    height: 46px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #2E2E2E;
+    position: relative;
+    left: 625px;
+    margin-top: 16px;
+}
+.champ_message{
+    width: fit-content;
+    margin-top: 19px;
+}
+.text_footer{
+    color: #FFFFFF;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.text3{
+    color: #2E2E2E;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 18px;
+}
